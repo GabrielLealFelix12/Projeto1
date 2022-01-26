@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'vt323regular';
+    src: url('vt323-regular-webfont.woff2') format('woff2'),
+         url('vt323-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#disheader {
+	font-family: 'vt323regular';
+	color: red;
+	text-align: center;
+	font-size: 4.5em; /* 40px/16=2.5em */
+}
+
+#disimage{
+	display: block;
+    margin: 0 auto;
+    width: 400px;
+    height: 450px;
+}
+body {
+	background-color: black; 
+}
+
+.meu {
+  font-family: 'vt323regular';
+  font-size: 20px;
+  color:red;
+  text-align: center;
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
